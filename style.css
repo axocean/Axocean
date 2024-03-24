@@ -93,6 +93,7 @@ body{
     align-items: center;
     justify-content: center;
 }
+
 .bg{
     position: absolute;
     width: 100%;
@@ -103,6 +104,22 @@ body{
 
 }
 
+
+.box{
+    width: 33.33%;
+    height: 50vh;
+    filter: blur(250px);
+}
+.red{
+    background-color: rgb(255, 140, 140);
+}
+.yellow{
+    background-color: rgb(255, 255, 166);
+    height: 30vh;
+}
+.blue{
+    background-color: rgb(200, 133, 255);
+}
 .mainContainer{
     padding-top: 70px;
     width: 100%;
@@ -113,8 +130,7 @@ body{
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    background-color: #fff9f9;
-  
+    background-color: #fff9f92a;
 }
 
 .profileSection{
